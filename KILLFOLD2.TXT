@@ -1,0 +1,13 @@
+PROGRAM : KILLFLDR.EXE
+TYPE    : System utility.
+ARCHIVE : KILLFOLD.ZIP
+CONTENTS: Killfldr.exe, Install.cmd, Killfldr.doc, Killfldr.txt, Killfldr.c
+PURPOSE : ->KILLFLDR.EXE is a utility which closes all open folders on the
+          OS/2 Desktop (including filesystem and shadowed folders) without
+          affecting running programs. Source code included.
+          ->INSTALL.CMD creates a Desktop object 'Close All Folders', when 
+          run in the same directory as KILLFLDR.EXE (presumably the directory
+          where unpacked.) 
+REQUIRES: OS/2 2.1+. Install requires OS/2 REXX be supported on system.
+LICENSE : Released into the public domain. 
+AUTHOR  : David Looney (djloon@delphi.com)

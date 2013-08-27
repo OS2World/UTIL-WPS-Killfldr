@@ -1,0 +1,49 @@
+KillFolders - KILLFOLD.EXE
+--------------------------
+
+KILLFOLD.EXE was written in response to a query by Stuart Siegel, who, it
+seems, works with a great many folders open on his desktop, and wished out
+loud for a way to close them all quickly without disturbing running
+programs.  A great many workarounds were suggested, including the use of
+the 'Close Folder on Subfolder Open' system option in Warp, and using the
+Tasklist.  Note that while one can select continous items in the tasklist
+by ctrl-drag, if separated by programs, separate selection is required. 
+If one has 20 folders open, then, it might take a maximum of 24 mouse clicks
+to close via the task list, 20 via selecting each window and closing, but
+just one by clicking on the KILLFOLD icon on the launchpad.
+
+KILLFOLD closes all open Desktop Folders (except the Desktop itself !)
+without affecting running programs.  It can be placed in the Desktop Popup
+Menu (RMB on desktop) menu, or run from the command line, or placed on the
+launchpad after creation of a sample desktop object (the install.cmd
+script in this package creates a desktop object when run in the same
+directory as killfold.exe when unpacked.)  To place the 'Close All
+Folders' object on the launchpad, just select with the LMB and drag to the
+launchpad with the RMB.  One other possibility is to use OS/2's single
+builtin macro key  (Ctrl-Alt-Shift-O, the last is the letter 'O' not
+0=1-1) combo to run this utility by backing up the os2\bitmap\aaaaa.exe
+file and replacing it with killfold.exe (i.e.  copy killfold.exe
+\os2\bitmap\aaaaa.exe.) 
+
+If there is interest in this type of utility, I might consider expanding
+the capability to encompass closing folders, programs, both, or all of a
+selected type except the previous (before killfold.exe) focus.  Perhaps
+this might be implemented via a "Close Many" option in the primary desktop
+popup menu, with a right menu opening to choices of "Folders", "Programs",
+and "All". 
+
+N.B. - The author assumes absolutely no responsibility for the suitability
+of this program for any purpose, or for any damages to the users data or
+system. This utility is supplied 'as is', without any guarantee of support
+or performance.  Use at your own risk.  'C' Source is included.  Your are
+free to copy and distribute this utility. This executable and code is r
+released into the public domain. FREEWARE. 
+
+(But please do let me know if you find it useful, and/or if you find any
+bugs, or have any suggestions for improvements.)
+
+
+                                                       Dave Looney
+                                                       [Team OS/2] 
+                                                    djloon@delphi.com
+
